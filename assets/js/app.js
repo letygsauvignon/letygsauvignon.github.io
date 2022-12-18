@@ -79,7 +79,7 @@ function reproducirMusica(e) {
     if (e.target.parentElement.classList.contains('play-music')) {
         
         let urlM = e.target.parentElement.previousElementSibling.value;
-        controles.innerHTML = `<a href="#" class="btn control atras"><i class="fas fa-backward"></i></a>
+        controles.innerHTML = `<a href="#"><i></i></a>
         <video src="${urlM}" style="width: 50vw;" width="380" height="390" controls autoplay type="video/mp4">
         <input type="text" value="${urlM}" style="display: none">
             if (${urlM} = "assets/music/estudiar/All.mp4") {
